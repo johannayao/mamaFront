@@ -20,7 +20,7 @@ formulaire.addEventListener("submit", (e)=>{
                 expire: new Date().getMilliseconds()+4*3600*1000
             }
             localStorage.setItem("sessionLibrairie", JSON.stringify(data));
-            window.location.href="./panierConnect.html"
+            window.location.href="./vendre.html"
         }else{
             alert("echoué")
         }

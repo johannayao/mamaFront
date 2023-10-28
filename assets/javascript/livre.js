@@ -1,5 +1,5 @@
 const session = localStorage.sessionLibrairie;
-if (!session) window.location.href = "./connecter.html";
+if (!session) window.location.href = "./inscription.html";
 console.log(JSON.parse(session).token);
 let formulaire = document.querySelector("form");
 console.log(formulaire);
@@ -13,7 +13,7 @@ formulaire.addEventListener("submit", (event) => {
       formData.append(input.name, input.files[0]);
     } else {
       formData.append(input.name, input.value);
-    }
+    } 
   });
   fetch("https://blog-7s1h.onrender.com/api/livre/creer", {
     method: "POST",

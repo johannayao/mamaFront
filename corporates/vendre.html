@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JohLibrairie</title>
+    <link rel="icon" type="image/png" href="../assets/images/koikoi.png">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/connection.css">
+    <link rel="stylesheet" href="../assets/css/vendre.css">
+    <link rel="stylesheet" href="../assets/css/AceuilConnecter.css">
+</head>
+<body>
+
+
+    
+    <div class="conn">
+       <a href="../index.html"><div class="flèche"><img src="../assets/image/flèche.png" alt="" width="30px"></div></a> 
+            <form class="formulaire" enctype="multipart/form-data">
+                <h1>renseigner</h1>
+               
+                  <div class="fo">
+                    <label>titre</label>
+                    <input type="text" name="titre"  placeholder="titre du livre" class="ehh">
+
+                    <label>Prix</label>
+                    <input type="number" name="prix" placeholder="Prix" class="ehh">
+
+                    <label>nom de l'auteur</label>
+                    <input type="text" name="auteur" placeholder="nom de l'auteur" class="ehh">
+
+                    <p><label for="w3review">Description:</label></p>
+                    <textarea id="w3review" name="description" rows="4" cols="40" placeholder="la description de votre livres"></textarea>
+
+                     
+
+                    <label>image</label>
+                    <input type="file" name="image" class="ehh">
+
+                    
+                  </div>
+
+                    <div class="fy">
+                        <button type="submit">valider</button>
+                     
+                    </div>
+            </form>
+    </div>        
+    <script src="../assets/javascript/livre.js"></script>
+</body>
+</html>

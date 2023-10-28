@@ -1,0 +1,81 @@
+body{
+    background-color:white ;
+}
+h1{
+    text-align: center;
+    color: black;  
+}
+label{
+    color: white;
+}
+.conn{
+    width: 42%;
+    height: auto;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    position: relative;
+    top: 40px;
+}
+
+.formulaire{
+    border-radius: 20px;
+    width: 380px;
+    background-color: #183D3D;
+    border-radius: 10px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    /* padding-bottom: 58px; */
+}
+label{
+    font-size: 20px;
+    margin-left: 20px;
+   
+}
+input{
+    width: 91%;
+    background-color: white;
+    height: 41px;
+    border-radius: 20px;
+    border: none;
+}
+.ehh{
+    margin: 0 auto;
+    margin-left: 20px;
+}
+
+button {
+    width: 25%;
+    height: auto;
+    padding: 10px;
+    margin-left: -40px;
+    border: none;
+    border-radius: 10px;
+
+}
+a{
+    text-decoration: none;
+    text-transform: none; 
+    color: black;
+}
+
+.fo a{
+    text-decoration: none;
+    text-transform: none; 
+   color: gray;
+   font-size: 16px;
+   margin-top: 20px;
+   
+   /* margin-right: 20px; */
+}
+.flèche{
+    position: absolute;
+    top: -15px;
+    left: 20px;
+}
+.fy{
+   display: flex; 
+   justify-content: space-around;
+   margin-top: 20px;
+   
+}
